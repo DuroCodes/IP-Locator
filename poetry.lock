@@ -1,0 +1,28 @@
+[[package]]
+category = "main"
+description = "Python API for IP2Location database."
+name = "ip2location"
+optional = false
+python-versions = "*"
+version = "8.4.1"
+
+[[package]]
+category = "main"
+description = "ANSII Color formatting for output in terminal."
+name = "termcolor"
+optional = false
+python-versions = "*"
+version = "1.1.0"
+
+[metadata]
+content-hash = "d6b7f1cc5a5cf5000a33dfe414739cf551810d1386e6a69d50f15168b1373d50"
+python-versions = "^3.8"
+
+[metadata.files]
+ip2location = [
+    {file = "IP2Location-8.4.1-py3-none-any.whl", hash = "sha256:bbddbd5e3f79c18a9710afd43be09cb21724d7324557668017c545b5c5e62bc4"},
+    {file = "IP2Location-8.4.1.tar.gz", hash = "sha256:4a83f32098091b6aafaef63b393331bf973bbf54547db82de38f30108b5f079c"},
+]
+termcolor = [
+    {file = "termcolor-1.1.0.tar.gz", hash = "sha256:1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"},
+]
